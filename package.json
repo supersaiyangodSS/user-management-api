@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js"
+    "server": "nodemon app.js",
+    "lint": "eslint .",
+  "lint-fix": "eslint --fix ."
   },
   "keywords": [],
   "author": "",
