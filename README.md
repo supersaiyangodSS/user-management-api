@@ -127,5 +127,43 @@ In the event of an error, the response body will contain a JSON object with an e
 ### Contributing
 Contributions are welcome! Please open an issue or pull request for any changes or bug fixes.
 
+### Development Environment Setup for Developers
+
+### Installation
+1. Clone the repository.
+2. Run npm install to install all the dependencies.
+3. Rename .env.example file to .env and update the MONGO_URI variable with your MongoDB connection string.
+
+### Running the Server
+1. Run npm start to start the server.
+2. By default, the server will run on port 3000.
+
+### API Endpoints
+#### GET /users
+Returns all the users in the database.
+
+#### POST /users
+Create a new user. The request body should contain firstName, lastName, and age fields.
+
+#### GET /users/:id
+Returns the user with the specified ID.
+
+#### DELETE /users/:id
+Deletes the user with the specified ID.
+
+#### PATCH /users/:id
+Updates the user with the specified ID. The request body should contain firstName, lastName, and age fields.
+
+### Dependencies
+1. express: For building the web server and API endpoints.
+2. dotenv: For loading environment variables from the .env file.
+3. mongoose: For interacting with MongoDB.
+
+### Development
+1. Run npm run dev to start the server in development mode with nodemon.
+2. Use npm run lint to lint the code with ESLint.
+3. Use npm run lint-fix to fix the linting errors.
+
+
 ### License
 This project is licensed under the MIT License.
