@@ -1,4 +1,4 @@
-# user-management-api
+# User-Management-API
 The User Management API allows you to perform CRUD (Create, Read, Update, Delete) operations on a user database.
 
 ## [live demo](https://user-management-api.vedantsapalkar.repl.co/)
